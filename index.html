@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(13, 13, 61);
+            display: grid;
+            /* align-items: center; */
+        }
+        #app{
+            position: relative;
+            margin-left: 40%;
+            margin-top: 20px;
+            color: aqua;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        .btn{
+            display: flex;
+            margin-left: 40%;
+            gap: 30px;
+            width: 300px;
+            height: 50px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h1 id="app">WEATHER APP</h1>
+        <div class="btn">
+            <button>Year Weather</button>
+            <button>Search Weather</button>
+        </div>
+        <h1>Palam </h1>
+        <h2>Clouds</h2>
+        <img src="cloud.png"/>
+        <h1>23.0°C</h1>
+
+        <div class="button">
+            <button>
+                <img src="air.png"/>
+                Windspeed 1.54m/s
+            </button>
+
+            <button>
+                <img src="humidity.png" />
+                Humidity 38%
+            </button>
+
+            <button>
+                <img src="clound1.png"/>
+                Clouds 40%
+            </button>
+
+        </div>
+    </div>
+</body>
+</html>
